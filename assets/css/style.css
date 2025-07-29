@@ -42,6 +42,12 @@ body {
   font-family: "Inter";
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 .about__title span {
   color: red;
 }/*# sourceMappingURL=style.css.map */
