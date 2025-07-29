@@ -18,6 +18,30 @@
   src: url("/assets/fonts/Inter_18pt-Bold.ttf");
   font-weight: 700;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  color: black;
+  font-weight: 600;
+  font-family: "Inter";
+}
+
 .about__title span {
   color: red;
 }/*# sourceMappingURL=style.css.map */
