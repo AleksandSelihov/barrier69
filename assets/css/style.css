@@ -79,8 +79,9 @@ body {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #000;
+  transition: 0.3s;
 }
-.header__link::hover {
+.header__link:hover {
   color: #f0c631;
 }
 .header__link--current {
