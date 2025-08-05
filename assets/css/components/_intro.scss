@@ -1,18 +1,24 @@
 .intro {
+    background-image: url(/assets/img/intro.jpg);
+    min-height: calc(100vh - 95px);
+    background-size: cover;
+    padding-top: 165px;
+
     &__title {
         font-weight: 600;
         font-size: 80px;
         line-height: 100%;
-        color: black;
-        padding-bottom: 28px;
+        color: white;
+        margin-bottom: 28px;
     }
 
     &__text {
         font-weight: 500;
         font-size: 20px;
         line-height: 130%;
-        color: black;
-        padding-bottom: 60px;
+        color: white;
+        margin-bottom: 60px;
+        max-width: 570px;
     }
 
     &__btn {
@@ -20,11 +26,13 @@
         font-size: 16px;
         line-height: 120%;
         text-align: center;
-        color: #000;
-        padding: 54px 19px;
+        color: black;
         background: #f0c631;
         padding: 19px 54px;
-        width: 283px;
-        height: 57px;
+        display: inline-block;
+        transition: 0.3s;
+        &:hover {
+            background: #fff;
+        }
     }
 }

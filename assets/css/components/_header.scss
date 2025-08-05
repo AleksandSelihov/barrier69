@@ -35,6 +35,9 @@
         letter-spacing: 0.05em;
         text-transform: uppercase;
         color: #000;
+        &::hover {
+            color: #f0c631;
+        }
 
         &--current {
             border-bottom: 2px solid #f0c631;
