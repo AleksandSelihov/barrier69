@@ -1,0 +1,30 @@
+.intro {
+    &__title {
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 100%;
+        color: black;
+        padding-bottom: 28px;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 130%;
+        color: black;
+        padding-bottom: 60px;
+    }
+
+    &__btn {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 120%;
+        text-align: center;
+        color: #000;
+        padding: 54px 19px;
+        background: #f0c631;
+        padding: 19px 54px;
+        width: 283px;
+        height: 57px;
+    }
+}
