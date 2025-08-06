@@ -1,6 +1,13 @@
 .about {
     padding-top: 94px;
     padding-bottom: 100px;
+
+    &__wrapper {
+        background-image: url(/assets/img/about_bg.svg);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+
     &__title {
         font-weight: 600;
         font-size: 40px;
@@ -43,6 +50,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
+
         &--accent {
             background: #f0c631;
         }

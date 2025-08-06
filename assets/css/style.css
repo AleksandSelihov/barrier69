@@ -93,6 +93,11 @@ body {
   padding-top: 94px;
   padding-bottom: 100px;
 }
+.about__wrapper {
+  background-image: url(/assets/img/about_bg.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
 .about__title {
   font-weight: 600;
   font-size: 40px;
@@ -178,6 +183,11 @@ body {
 .about {
   padding-top: 94px;
   padding-bottom: 100px;
+}
+.about__wrapper {
+  background-image: url(/assets/img/about_bg.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 .about__title {
   font-weight: 600;
