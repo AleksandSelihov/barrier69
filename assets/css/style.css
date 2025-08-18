@@ -302,4 +302,45 @@ body {
 }
 .works__subtitle {
   margin-bottom: 20px;
+}
+
+.price__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 40px;
+}
+.price__text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000;
+  font-weight: 500;
+  font-weight: 500;
+  color: #6e6e6e;
+  margin-bottom: 58px;
+}
+.price__length {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #000;
+  padding: 46px 35px 30px;
+}
+.price__cost {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #6e6e6e;
+  padding: 46px 33px;
+}
+.price__item {
+  width: 1200px;
+  height: 105px;
+  background: #f9f9f9;
+  display: flex;
+  gap: 500px;
+  margin-bottom: 100px;
 }/*# sourceMappingURL=style.css.map */
