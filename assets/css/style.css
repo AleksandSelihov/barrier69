@@ -304,6 +304,14 @@ body {
   margin-bottom: 20px;
 }
 
+.price {
+  padding: 100px 0px;
+}
+.price__wrapper {
+  background-image: url(/assets/img/pricebg.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
 .price__title {
   font-weight: 600;
   font-size: 40px;
@@ -337,10 +345,9 @@ body {
   padding: 46px 33px;
 }
 .price__item {
-  width: 1200px;
-  height: 105px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.price__item:nth-child(odd) {
   background: #f9f9f9;
-  display: flex;
-  gap: 500px;
-  margin-bottom: 100px;
 }/*# sourceMappingURL=style.css.map */

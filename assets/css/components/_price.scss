@@ -1,4 +1,11 @@
 .price {
+    padding: 100px 0px;
+
+    &__wrapper {
+        background-image: url(/assets/img/pricebg.svg);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
     &__title {
         font-weight: 600;
         font-size: 40px;
@@ -35,11 +42,11 @@
         padding: 46px 33px;
     }
     &__item {
-        width: 1200px;
-        height: 105px;
-        background: #f9f9f9;
-        display: flex;
-        gap: 500px;
-        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        &:nth-child(odd) {
+            background: #f9f9f9;
+        }
     }
 }
