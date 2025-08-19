@@ -350,4 +350,12 @@ body {
 }
 .price__item:nth-child(odd) {
   background: #f9f9f9;
+}
+
+.call__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #000;
 }/*# sourceMappingURL=style.css.map */
