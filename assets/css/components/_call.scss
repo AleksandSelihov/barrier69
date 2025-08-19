@@ -1,5 +1,22 @@
 .call {
+    background: #f0c631;
+    padding: 43px 0;
+    
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
     &__title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    &__phone {
         font-weight: 700;
         font-size: 40px;
         line-height: 110%;

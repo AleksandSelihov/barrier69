@@ -352,7 +352,22 @@ body {
   background: #f9f9f9;
 }
 
+.call {
+  background: #f0c631;
+  padding: 43px 0;
+}
+.call__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 .call__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #000;
+}
+.call__phone {
   font-weight: 700;
   font-size: 40px;
   line-height: 110%;
