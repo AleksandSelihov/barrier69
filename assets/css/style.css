@@ -373,4 +373,58 @@ body {
   line-height: 110%;
   text-transform: uppercase;
   color: #000;
+}
+
+.footer {
+  background: #000;
+}
+.footer__top {
+  padding: 100px 0px 63px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #6e6e6e;
+}
+.footer__list {
+  display: flex;
+  gap: 246px;
+}
+.footer__emailtext {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #6e6e6e;
+}
+.footer__email {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footer__calltext {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #6e6e6e;
+}
+.footer__call {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footer__text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #6e6e6e;
+}
+.footer__bottom {
+  padding-bottom: 100px;
+  padding-top: 36px;
 }/*# sourceMappingURL=style.css.map */
