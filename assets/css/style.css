@@ -458,7 +458,7 @@ body {
 }
 @media (width < 768px) {
   .price__length {
-    padding: 41px 20px;
+    padding: 41px 20px 41px 0;
   }
 }
 .price__cost {
@@ -470,8 +470,7 @@ body {
 }
 @media (width < 768px) {
   .price__cost {
-    padding: 46px 0px 40px;
-    flex-direction: column;
+    padding: 41px 0px 40px;
   }
 }
 .price__item {
