@@ -1,16 +1,33 @@
 .footer {
     background: #000;
 
+    &__logo {
+        @media (width < 768px) {
+          margin-bottom: 40px;
+          width: 104px;
+          height: 16px;
+        }
+    }
+    
+    
     &__top {
         padding: 100px 0px 63px;
         display: flex;
         justify-content: space-between;
         border-bottom: 1px solid #6e6e6e;
+        @media (width < 768px) {
+            padding: 46px 0px 40px;
+            flex-direction: column;
+        }
     }
 
     &__list {
         display: flex;
         gap: 246px;
+        @media (width < 768px) {
+            flex-direction: column;
+            gap: 26px;
+        }
     }
 
     &__emailtext {
@@ -55,7 +72,7 @@
     }
 
     &__bottom {
-        padding-bottom: 100px;
+        padding-bottom: 80px;
         padding-top: 36px;
     }
 }
