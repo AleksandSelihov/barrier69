@@ -47,16 +47,17 @@
     &__cost {
         font-weight: 500;
         font-size: clamp(1.125rem, 1.0795rem + 0.2273vw, 1.25rem);
-        line-height: 130%;
+        line-height: 120%;
         color: #6e6e6e;
         padding: 46px 33px;
         @media (width < 768px) {
-            padding: 41px 0px 40px;
+            padding: 41px 0px 41px;
         }
     }
     &__item {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
 
         &:nth-child(odd) {
             background: #f9f9f9;
