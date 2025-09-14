@@ -458,7 +458,7 @@ body {
 }
 @media (width < 768px) {
   .price__length {
-    padding: 41px 20px 41px 0;
+    padding: 41px 0px 41px 20px;
   }
 }
 .price__cost {
